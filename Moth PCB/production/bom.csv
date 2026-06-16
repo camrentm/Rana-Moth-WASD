@@ -1,0 +1,41 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A,SW_Hotswap_Kailh_Choc_V1V2_THT,1,A,
+B,SW_Hotswap_Kailh_Choc_V1V2_THT,1,B,
+"C1, C10, C2, C4",0402,4,1uF,C52923
+"C11, C12, C13, C14, C15, C16, C17, C3, C5, C6",0402,10,100nF,C1525
+"C7, C8",0402,2,22pF,C1555
+C9,0402,1,10uF,C15525
+C_DOWN,SW_Hotswap_Kailh_Choc_V1V2_THT,1,C Down,
+C_LEFT,SW_Hotswap_Kailh_Choc_V1V2_THT,1,C Left,
+C_RIGHT,SW_Hotswap_Kailh_Choc_V1V2_THT,1,C Right,
+C_UP,SW_Hotswap_Kailh_Choc_V1V2_THT,1,C Up,
+D1,D_SOD-123,1,Schottky Diode,C8598
+D3,0805,1,GREEN,C84256
+DOWN,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Down,
+J4,FPC-05F-30PH20,1,Left Ribbon,
+J5,FPC-05F-30PH20,1,Right Ribbon,
+L,SW_Hotswap_Kailh_Choc_V1V2_THT,1,L,
+LEFT,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Left,
+LS,SW_Hotswap_Kailh_Choc_V1V2_THT,1,LS,
+MS,SW_Hotswap_Kailh_Choc_V1V2_THT,1,MS,
+MX,SW_Hotswap_Kailh_Choc_V1V2_THT,1,MX,
+MY ,SW_Hotswap_Kailh_Choc_V1V2_THT,1,MY,
+R,SW_Hotswap_Kailh_Choc_V1V2_THT,1,R,
+"R10, R11",0402,2,1k,C11702
+R4,0402,1,470,C25117
+R5,0603,1,5.6k,C23189
+R6,0603,1,10k,C25804
+R7,0402,1,10k,C25744
+"R8, R9",0603,2,27,C25190
+RIGHT,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Right,
+START,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Start,
+SW1,SW_SPST_SKQG_WithStem,1,Boot,C202424
+U1,SOT-23,1,XC6206,C5446
+U2,FPC-SMD_X05A26H12G,1,X05A26H12G,C519263
+U3,RP2040-QFN-56,1,RP2040,C2040
+U4,SOIC-8_5.23x5.23mm_P1.27mm,1,W25Q128JVS,C97521
+UP,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Up,
+X,SW_Hotswap_Kailh_Choc_V1V2_THT,1,X,
+Y,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Y,
+Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,12MHz,C9002
+Z,SW_Hotswap_Kailh_Choc_V1V2_THT,1,Z,
