@@ -2,8 +2,9 @@
 
 WASD version of [Rana Labs'](https://github.com/rana-sylvatica) Moth, a foldable leverless controller.
 
-<div style="display: flex;">
-    <img src="Images/PCB Moth - White.jpg" alt="Layout 1" width="600" />
+<div style="display: flex; gap: 10px;">
+    <img src="Images/Moth.jpg" alt="Moth open" width="500" />
+    <img src="Images/Folded%20Moth.jpg" alt="Moth folded" width="500" />
 </div>
 
 ---
@@ -60,3 +61,13 @@ For the reverse folded position:
 - **Hinge Pin Slot:** While you can add caps for a cleaner look, the friction fit alone holds securely.
 
 ---
+
+## Files
+
+| Folder | Contents |
+|--------|----------|
+| `Shell/` | 3D printable top panels and backplates (STEP) |
+| `Hinge and Buttons/` | Hinge upper/lower, hinge pin, and keycap models (STEP) |
+| `Moth PCB/` | KiCad PCB project, schematics, and fabrication files |
+| `DXF/` | PCB outlines and hole patterns |
+| `Images/` | Build photos |
