@@ -14,15 +14,15 @@ WASD version of [Rana Labs'](https://github.com/rana-sylvatica) Moth, a foldable
 I printed the entire shell and hinges in **Bambu Lab Matte PLA** (any PLA should work, though build quality feel may vary).
 
 - **Mainboard:** RP2040 integrated directly onto the left custom PCB. The right side connects via ribbon cable.
-- **Switches:** Any Kailh Choc low-profile switch. Must be low-profile — standard height switches won't fit.
-- **USB-C:** [QuRB](https://github.com/rana-sylvatica/rana-tadpole/tree/main/PCBs/Breakout%20Board%20(QuRB)) by [Quark Works](https://github.com/quark-works) and Rana Labs — a USB-C breakout board with a ribbon cable port for solderless assembly.
+- **Switches:** Any Kailh Choc low-profile switch. Must be low-profile (standard height switches won't fit).
+- **USB-C:** [QuRB](https://github.com/rana-sylvatica/rana-tadpole/tree/main/PCBs/Breakout%20Board%20(QuRB)) by [Quark Works](https://github.com/quark-works) and Rana Labs, a USB-C breakout board with a ribbon cable port for solderless assembly.
 - **Hardware:** M2 and M3 screws only. You'll need ten M3 heat inserts for the backplates, twelve M3×5/6mm bolts for the backplates and QuRB, and eight M2×4mm bolts for the mainboards.
 
 ---
 
 ## Assembly
 
-The custom PCB eliminates all handwiring — the only soldering required is installing the hotswap sockets for the Choc switches.
+The custom PCB eliminates all handwiring. The only soldering required is installing the hotswap sockets for the Choc switches.
 
 The two halves connect via a 20-pin 0.5mm pitch ribbon cable. The QuRB connects to the left board via a 12-pin 0.5mm pitch ribbon cable for the USB-C port.
 
@@ -30,7 +30,7 @@ The two halves connect via a 20-pin 0.5mm pitch ribbon cable. The QuRB connects 
 
 ## Magnets
 
-Strong magnets are essential — they're working against the spring force of every switch.
+Strong magnets are essential since they're working against the spring force of every switch.
 
 - **Size:** 6×3mm Neodymium, stacked 2 high per hole
 - **Count:** 10 holes × 2 magnets = **20 magnets total**
@@ -52,7 +52,7 @@ You can edit the lip width in the hinge model to adjust the fold angle to your p
 ## Notes
 
 - **Button fit:** Buttons must sit flush with the face when depressed, or the halves won't close cleanly. Strong magnets may compensate for minor protrusion.
-- **Hinge pin slot:** Left open in this design — the friction fit holds without caps, and it makes intentional pin removal much easier.
+- **Hinge pin slot:** Left open in this design. The friction fit holds without caps, and it makes intentional pin removal much easier.
 
 ---
 
