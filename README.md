@@ -1,76 +1,62 @@
-# Rana Moth WASD
+# The Rana Labs Moth (WASD Version)
 
-A foldable low-profile WASD keyboard with a hinge design inspired by moth wings. Features a "prism" fold, neodymium magnet closure, and Raspberry Pi Pico controller.
+WASD version of [Rana Labs'](https://github.com/rana-sylvatica) Moth, a foldable leverless controller.
 
-![Moth open](Images/Moth.jpg)
-
-![Moth folded](Images/Folded%20Moth.jpg)
-
----
-
-## Shell Printing
-
-Print the shell, hinges, and all other parts in **Bambu Lab PETG** (any PETG should work). Print the **hinge pin in PLA+** — PETG will warp without supports.
+<div style="display: flex;">
+    <img src="Images/PCB Moth - White.jpg" alt="Layout 1" width="600" />
+</div>
 
 ---
 
-## Components
+## Build Overview (What do I need to make one?)
 
-- **Controller:** Standard Raspberry Pi Pico — screws in with M2 screws (4mm length, shorter will also work)
-- **Switches:** Must be **low-profile**. Tested with Cosmox Wind Engines and KS33 Silvers
-- **USB-C connector:** Model UD (superglued in). The **Model BirdD** is recommended instead — it mounts with screws. You'll need to modify the shell model slightly to fit the BirdD
+I printed the entire shell, hinges, etc., in **Bambu Lab Matte PLA** (though any PLA should work, build quality feel may vary).
+
+- **Mainboards:** RP2040—**integrated directly onto the left custom PCB.** The right side is connnected by ribbon cable.
+- **Switches:** Must be **low profile switches.** I use pretty much any Kailh Choc Low Profile switches. They all work, just choose a preferred switch type.
+- **USB-C Connector:** [Quark's](https://github.com/quark-works) and Rana Labs' [QuRB](https://github.com/rana-sylvatica/rana-tadpole/tree/main/PCBs/Breakout%20Board%20(QuRB)), a USB C Breakout board with a ribbon cable port, for solderless assembly.
+- **Hardware:** M2 screws and M3 screws are the only fasteners required to assemble. You will need **ten M3 heat inserts** for the backplates, **twelve M3 x 5/6mm bolts** for the backplates and QuRB, and **eight M2 x 4mm bolts** to secure each half of the mainboards.
 
 ---
 
 ## Assembly
 
-1. Get the Pico side fully wired before touching the other half
-2. **Fold the Moth before running cross-body wires** — if you solder in the open position, wires will pull too tight when folded
-3. Leave plenty of slack in cross-body wiring
-4. Route wires behind the hinge pin for a cleaner build — this is much easier while folded
-5. Install the hinge pin **after** routing wires. Getting the pin through with wires already crossing is very difficult
+### PCB
+
+To streamline your build, I’ve designed a custom PCB for this controller. This board integrates the Pico directly eliminating the need for any handwiring of the microcontroller. The **only soldering required is the installation of the hotswap sockets for the Choc switches.**
+
+The two halves of the board are connected using a 20 pin, .5 pitch ribbon cable, and the QuRB is connected to the Left side board for USB C port via a 12 pin, .5 pitch ribbon cable.
 
 ---
 
 ## Magnets
 
-The magnets need to be strong — they're working against all the switch springs.
+Strong magnets are crucial, as they must counteract every spring in your switches. I used:
 
-- **Size:** 6×2mm Neodymium, stacked 3 high per hole
-- **Count:** 10 holes × 3 magnets = **30 magnets total**
+- **6x3mm Neodymium magnets**, stacked **2 high** in each of the **10 total holes** (20 magnets overall).
+- This setup creates a satisfying snap and keeps the Moth securely folded.
 
-The snap when closing is very satisfying and holds the Moth securely shut.
-
-> [Amazon link to magnets used](https://a.co/d/aDkEUHX)
+**Amazon link:** [Magnets used](https://www.amazon.com/dp/B096LZNZTQ?ref=cm_sw_r_cp_ud_dp_ZEAK3BD945P57Y9BB6P4&ref_=cm_sw_r_cp_ud_dp_ZEAK3BD945P57Y9BB6P4&social_share=cm_sw_r_cp_ud_dp_ZEAK3BD945P57Y9BB6P4&skipTwisterOG=1&newOGT=1&th=1)
 
 ---
 
-## Prism Fold Design
+## 'Prism' Ergonomic Mode
 
-The top hinge piece has a **lip** that stops the wings from overfolding, giving the prism position a clean stopping point. The rounded hinge backs create friction for rigidity.
+For the reverse folded position:
 
-**Recommendation:** Put the lip on the **bottom hinge piece** instead of the top.
+- A **lip** on the two hinge pieces prevents overfolding by creating a defined stopping point.
+- The rounded back of the hinges generates friction, ensuring rigidity in the ergonomic 'prism' configuration.
 
-- The top hinge cannot be removed without fully rewiring the Moth
-- The bottom hinge pin can be pulled and the piece replaced if you want to adjust your prism angle later
+### Adjustments:
 
-You can edit the lip width to change the folded angle — shallower or steeper depending on preference.
-
----
-
-## Misc Notes
-
-- Buttons must be **flush with the face surface** when depressed, or the halves won't meet cleanly when closed. Strong magnets may compensate for minor protrusion
-- The hinge pin slots are left open — the friction fit holds without caps, and leaving them open makes intentional removal easier
+- The hinge lip’s width can be edited to modify the folding angle.
 
 ---
 
-## Files
+## Miscellaneous Notes
 
-| Folder | Contents |
-|--------|----------|
-| `Shell/` | 3D printable shell top panels and backplates (STEP) |
-| `Hinge and Buttons/` | Hinge upper/lower, hinge pin, and keycap models (STEP) |
-| `Moth PCB/` | KiCad PCB project, schematics, and fabrication files |
-| `DXF/` | PCB outlines and hole patterns for reference |
-| `Images/` | Build photos |
+- **Button Fit:** Ensure buttons sit flush with the face surface when pressed to allow proper folding.
+- **Magnet Strength:** Although strong neodymium magnets can overcome minor misalignments, aim for a flush fit.
+- **Hinge Pin Slot:** While you can add caps for a cleaner look, the friction fit alone holds securely.
+
+---
