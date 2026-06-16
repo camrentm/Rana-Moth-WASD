@@ -37,8 +37,6 @@ Strong magnets are essential since they're working against the spring force of e
 
 The snap when closing is very satisfying and holds the Moth securely folded.
 
-→ [Amazon link to magnets used](https://www.amazon.com/dp/B096LZNZTQ)
-
 ---
 
 ## Prism Ergonomic Mode
