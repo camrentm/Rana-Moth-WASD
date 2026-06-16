@@ -28,6 +28,12 @@ The two halves connect via a 20-pin 0.5mm pitch ribbon cable. The QuRB connects 
 
 ---
 
+## Firmware
+
+This build runs a custom fork of HayBox configured for the Moth layout. Find it at [camrentm/HayBox-Rana-Moth](https://github.com/camrentm/HayBox-Rana-Moth).
+
+---
+
 ## Magnets
 
 Strong magnets are essential since they're working against the spring force of every switch.
